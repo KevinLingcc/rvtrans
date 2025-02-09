@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define PROJECT_NAME "rvtrans"
+#define PROJECT_NAME "rvtrans_c"
 
 int main(int argc, char **argv) {
     if(argc != 1) {

@@ -1,8 +1,8 @@
-project('rvtrans', ['c', 'cpp','python'],
+project('rvtrans', ['c', 'cpp'],
   version : '0.1',
-  default_options : ['warning_level=3'])
+  default_options : ['warning_level=pedantic'])
 
-public_c_cpp_compile_argument=["-Wall", "-Wextra"]
+public_c_cpp_compile_argument=[]
 add_global_arguments(public_c_cpp_compile_argument, language: 'cpp')
 add_global_arguments(public_c_cpp_compile_argument, language: 'c')
 

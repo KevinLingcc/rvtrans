@@ -1,6 +1,6 @@
 #include <cstdio>
 #include <iostream>
-#define PROJECT_NAME "rvtrans"
+#define PROJECT_NAME "rvtrans_cpp"
 
 int main(int argc, char **argv) {
     if(argc != 1) {
