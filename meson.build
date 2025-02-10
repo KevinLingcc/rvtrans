@@ -1,6 +1,6 @@
 project('rvtrans', ['c', 'cpp'],
   version : '0.1',
-  default_options : ['warning_level=pedantic'])
+  default_options : ['warning_level=everything'])
 
 public_c_cpp_compile_argument=[]
 add_global_arguments(public_c_cpp_compile_argument, language: 'cpp')
